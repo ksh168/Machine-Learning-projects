@@ -67,7 +67,8 @@ ssh -i "C:\Users\Kunal Sharma\.ssh\bhp_project.pem" ubuntu@ec2-54-157-152-86.com
 7. Now install python packages and start flask server
 ```
 sudo apt-get install python3-pip
-sudo pip3 install -r "/home/ubuntu/Bengaluru real estate price prediction/server/requirements.txt"
+sudo pip3 install numpy
+sudo pip3 install scikit-learn
 python3 /home/ubuntu/Bengaluru real estate price prediction/client/server.py
 ```
 Running last command above will prompt that server is running on port 5000.
