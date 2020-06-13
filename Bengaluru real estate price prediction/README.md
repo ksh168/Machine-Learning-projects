@@ -73,3 +73,4 @@ python3 /home/ubuntu/Bengaluru real estate price prediction/client/server.py
 Running last command above will prompt that server is running on port 5000.
 
 8. Now just load your cloud url in browser (for me it was ec2-54-157-152-86.compute-1.amazonaws.com) and this will be fully functional website running in production cloud environment.
+### View this project at: https://cutt.ly/bengaluru_real_estate_price_prediction
