@@ -17,7 +17,7 @@ This is a data science project to build a real estate price prediction website.F
 1. Create EC2 instance using amazon console, also in security group add a rule to allow HTTP incoming traffic
 2. Now connect to your instance using a command like this,
 ```
-ssh -i "C:\Users\Kunal Sharma\.ssh\Banglore.pem" ubuntu@ec2-54-157-152-86.compute-1.amazonaws.com
+ssh -i "C:\Users\Kunal Sharma\.ssh\bhp_project.pem" ubuntu@ec2-54-157-152-86.compute-1.amazonaws.com
 ```
 3. nginx setup
    1. Install nginx on EC2 instance using these commands,
