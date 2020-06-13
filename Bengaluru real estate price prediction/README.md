@@ -65,10 +65,11 @@ ssh -i "C:\Users\Kunal Sharma\.ssh\Banglore.pem" ubuntu@ec2-54-157-152-86.comput
     sudo service nginx restart
     ```
 7. Now install python packages and start flask server
-	```
+```
 sudo apt-get install python3-pip
 sudo pip3 install -r "/home/ubuntu/Bengaluru real estate price prediction/server/requirements.txt"
 python3 /home/ubuntu/Bengaluru real estate price prediction/client/server.py
-	```
-	Running last command above will prompt that server is running on port 5000.
+```
+Running last command above will prompt that server is running on port 5000.
+
 8. Now just load your cloud url in browser (for me it was ec2-54-157-152-86.compute-1.amazonaws.com) and this will be fully functional website running in production cloud environment.
