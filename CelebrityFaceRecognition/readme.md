@@ -1,6 +1,6 @@
 ![](ui_snapshot.jpg)
 
-In this data science and machine learning project, we classify sports personalities. We restrict classification to only these people,
+In this project, we classify sports personalities. We restrict classification to only these people,
 1) Maria Sharapova
 2) Serena Williams
 3) Virat Kohli
