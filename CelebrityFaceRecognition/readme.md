@@ -1,6 +1,6 @@
 ![](UIsnapshot.png)
 
-In this data science and machine learning project, we classify images. We restrict classification to only these people,
+In this project, we classify images. The classification is restricted to only these people,
 
 1) Maria Sharapova
 2) Serena Williams
@@ -12,6 +12,10 @@ Here is the folder structure,
 * UI : This contains ui website code 
 * server: Python flask server
 * model: Contains python notebook for model building and our dataset
+
+ML Models used: SVC, Random Forest, Logistic Regression
+
+PS: This project doesn't involves Artificial Neural Networks(ANNs) 
 
 Technologies used in this project,
 1. Python
