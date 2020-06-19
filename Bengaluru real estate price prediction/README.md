@@ -69,7 +69,7 @@ ssh -i "C:\Users\Kunal Sharma\.ssh\bhp_project.pem" ubuntu@ec2-54-157-152-86.com
 sudo apt-get install python3-pip
 sudo pip3 install numpy
 sudo pip3 install scikit-learn
-python3 /home/ubuntu/Bengaluru real estate price prediction/client/server.py
+python3 /home/ubuntu/Bengaluru real estate price prediction/server/server.py
 ```
 Running last command above will prompt that server is running on port 5000.
 
