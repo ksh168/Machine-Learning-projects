@@ -1,6 +1,7 @@
 ![](UIsnapshot.png)
 
 In this data science and machine learning project, we classify celebrities. We restrict classification to only these people,
+
 1) Maria Sharapova
 2) Serena Williams
 3) Virat Kohli
