@@ -36,7 +36,7 @@ ssh -i "C:\Users\Kunal Sharma\.ssh\bhp_project.pem" ubuntu@ec2-54-157-152-86.com
    sudo service nginx restart
    ```
    4. Now when you load cloud url in browser you will see a message saying "welcome to nginx" This means your nginx is setup and running.
-4. Now you need to copy all your code to EC2 instance. You can do this either using git or copy files using winscp. We will use winscp. You can download winscp from here: https://winscp.net/eng/download.php
+4. Now you need to copy all your code to EC2 instance. You can do this either using git or copy files using winscp. We will use winscp. You can download winscp from [here](https://winscp.net/eng/download.php)
 5. Once you connect to EC2 instance from winscp, you can now copy all code files into /home/ubuntu/ folder. The full path of your root folder is now: **/home/ubuntu/Bengaluru real estate price prediction**
 6.  After copying code on EC2 server now we can point nginx to load our property website by default. For below steps,
     1. Create this file /etc/nginx/sites-available/bhp.conf. The file content looks like this,
